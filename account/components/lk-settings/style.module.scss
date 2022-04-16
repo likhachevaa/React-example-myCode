@@ -1,0 +1,228 @@
+.changeImg {
+  background-color: white;
+  margin-right: 12px;
+}
+.linkBtn {
+  font-size: 1.125rem;
+}
+.imgSettings {
+  margin: 0px 0 0 20px;
+  width: 562px;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+.header {
+  margin-bottom: 22px;
+}
+.container{
+  width: 80%;
+}
+.profile{
+  width: 60%;
+}
+.phoneTitle {
+  margin: 22px 0 32px 0;
+}
+.textSettings {
+  margin: 48px 0 24px 0;
+}
+.titleH2 {
+  margin-bottom: 32px;
+}
+.container {
+  padding: 0;
+}
+
+.containerMenu {
+  padding: 0;
+  width: 90%;
+}
+.editButton {
+  font-weight: 500 !important;
+  color: #0766ff;
+  margin-bottom: 48px;
+}
+@media  screen and (min-width: 1441px) {
+.profile{
+  width: 50%;
+}
+.containerMenu {
+  padding: 0;
+  width: 60%;
+}
+  
+}
+
+@media (max-width: 1024px) and (min-width: 320px) {
+  .content {
+    flex-direction: column;
+  }
+  .imgSettings {
+    margin: 0;
+  }
+  .header {
+    margin-top: 30px;
+  }
+  .container {
+    padding: 0;
+    margin-left: 20px;
+    position: inherit;
+  }
+}
+@media (max-width: 480px) and (min-width: 320px) {
+  .imgSettings {
+    width: 100%;
+    height: 243px;
+    margin-top: 32px;
+  }
+  .container {
+    padding-left: 16px;
+  }
+}
+
+.mainMenu {
+  display: flex;
+}
+
+.titleH2 {
+  margin-bottom: 32px;
+}
+
+.header {
+  margin-bottom: 24px;
+}
+.input {
+  margin-bottom: 20px;
+}
+.buttonsGroup {
+  display: flex;
+}
+.divCancel {
+  margin-left: 24px;
+}
+.saveButton,
+.btn2 {
+  font-weight: 500 !important;
+  font-size: 18px;
+  line-height: 24px;
+}
+.okImg {
+  margin-right: 6px;
+}
+
+.Subtitle2 {
+  margin-top: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  color: rgba(42, 53, 107, 0.6);
+}
+
+
+
+@media (max-width: 1024px) and (min-width: 320px) {
+  .profile {
+    flex-direction: column;
+    width: auto;
+  }
+  .imgSettings {
+    margin-top: 32px;
+  }
+  .header {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 480px) and (min-width: 320px) {
+  .container {
+    padding-left: 15px;
+  }
+  .imgSettings {
+    margin: auto;
+    width: 100%;
+    height: 232px;
+    margin-top: 20px;
+  }
+}
+
+.titleLk {
+  margin-bottom: 24px;
+}
+.mainMenu {
+  display: flex;
+}
+
+.titleH2 {
+  margin-bottom: 32px;
+}
+
+.header {
+  margin-bottom: 24px;
+}
+.input {
+  margin-bottom: 20px;
+}
+
+.btn {
+  font-weight: 500 !important;
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 24px;
+}
+
+.Subtitle2 {
+  margin-top: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  color: rgba(42, 53, 107, 0.6);
+}
+.inputPass {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+}
+.eyeBtn {
+  margin: 67px 0px 0px 5px;
+}
+.btn2 {
+  background-color: white;
+}
+
+.content {
+  display: flex;
+}
+
+.buttonsGroup {
+  margin-top: 24px;
+}
+.okImg {
+  margin-right: 6px;
+  margin-bottom: 4px;
+}
+
+@media (max-width: 1023px) and (min-width: 320px) {
+  .content {
+    flex-direction: column;
+  }
+  .header {
+    margin-top: 30px;
+  }
+  .eyeBtn {
+    margin-top: 52px;
+  }
+}
+@media (max-width: 480px) and (min-width: 320px) {
+  .imgSettings {
+    width: 100%;
+    height: 232px;
+  }
+  .container {
+    padding-left: 15px;
+  }
+}

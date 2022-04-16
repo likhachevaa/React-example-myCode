@@ -1,0 +1,30 @@
+.list {
+  display: flex;
+  background-color: #f2f8ff;
+  height: 60px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  .orderData{
+    margin-left: 10px;
+    display: block;
+  }
+}
+
+.description {
+  font-size: 20px;
+  line-height: 24px;
+  color: #2a356b;
+  width: 200px;
+
+  img {
+    cursor: pointer;
+    margin-right: 8px;
+  }
+}
+@media (max-width: 768px) and (min-width: 320px){
+  .description{
+    width: 105px;
+  }
+}

@@ -1,0 +1,50 @@
+@import '../../../../../utils/styles/Mixins';
+
+.btnReg{
+  display: flex;
+}
+.btnBack{
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 1025px) {
+  .container {
+    display: flex;
+    justify-content: space-between;
+
+    .formContainer {
+      p {
+        margin-bottom: 1.75rem;
+      }
+
+      .input {
+        margin-bottom: 2rem;
+      }
+
+      .btn {
+        margin-top: 2.75rem;
+      }
+    }
+
+    .svg {
+      img {
+        width: 41.25rem;
+      }
+    }
+  }
+}
+
+.CheckboxWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+@media (max-width: 1024px) and (min-width: 375px) {
+  .container {
+    display: block;
+  }
+  .btnReg {
+    margin: 32px 0 40px 0;
+  }
+}

@@ -1,0 +1,66 @@
+@import '../../../utils/styles/Mixins';
+
+.container {
+  display: flex;
+  position: relative;
+}
+
+.pageWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+}
+
+.title {
+  margin-bottom: 2rem;
+}
+
+.orderInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  right: 10px;
+  top: 80px;
+
+  p + p {
+    margin-top: 10px;
+  }
+  .accent {
+    color: var(--colorAquamarine);
+  }
+
+  @include endMediaPoint(400px) {
+    left: 10px;
+    right: initial;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .container {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .hamburger {
+    display: none;
+  }
+}
+
+.hamburger {
+  width: 100%;
+  background: linear-gradient(359.85deg, #adbcfc 17.31%, rgba(255, 255, 255, 0) 122.27%);
+  height: 60px;
+}
+
+.menuBtnSvg {
+  padding: 10px;
+}
+
+@media (max-width: 480px) and (min-width: 320px){
+  .container{
+  position: inherit;
+  }
+}

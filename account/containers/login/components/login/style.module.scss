@@ -1,0 +1,77 @@
+@import '../../../../../utils/styles/Mixins';
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.svg {
+  width: 660px;
+  height: 390px;
+}
+
+.phoneInput {
+  margin-top: 60px;
+  margin-bottom: 44px;
+}
+
+.enterBtn {
+  margin-bottom: 33px;
+}
+.linkBtn {
+  margin-top: 10px;
+}
+
+@include media(desktop) {
+  .container {
+    display: flex;
+    justify-content: space-between;
+
+    .formContainer {
+      div + div {
+        margin-top: 60px;
+      }
+
+      .phoneInput {
+        margin-top: 60px;
+      }
+    }
+
+    .enterBtn {
+      margin: 2.5rem 0 2rem 0;
+    }
+
+    .linkBtn {
+      font-size: 1.125rem;
+    }
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  .container {
+    display: block;
+  }
+  .svg {
+    margin-top: 84px;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 480px) {
+  .svg {
+    max-width: 100%;
+    margin-top: 44px;
+  }
+  .container {
+    display: block;
+  }
+}
+
+@media (max-width: 600px) and (min-width: 375px) {
+  .container {
+    display: block;
+  }
+  .svg {
+    width: 278px;
+    height: 64px;
+    margin: 44px 0 0 47px;
+  }
+}

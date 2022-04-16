@@ -1,0 +1,43 @@
+li:hover {
+  cursor: pointer;
+}
+
+.modalWrapper {
+  position: absolute;
+  z-index: 1;
+  right: -24px;
+  top: -80px;
+  width: 100vw;
+  padding: 16px 16px 40px 35px;
+  background: linear-gradient(359.85deg, #b3deff 17.31%, rgb(255, 255, 255) 122.27%);
+  box-shadow: 0 10px 20px 3px rgba(102, 115, 247, 0.2);
+  border-radius: 10px;
+
+  .modalImg {
+    cursor: pointer;
+    height: 20px;
+    text-align: right;
+
+    img {
+      width: 25px;
+      height: 25px;
+    }
+  }
+
+  ul {
+    list-style: none;
+    margin: 20px 10px 0 0;
+    text-align: center;
+
+    button {
+      width: 200px;
+      margin: 20px 0 0 0;
+    }
+
+    li {
+      color: var(--colorAquamarine);
+      margin-bottom: 20px;
+      list-style-type: none;
+    }
+  }
+}

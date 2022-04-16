@@ -1,0 +1,84 @@
+@import '../../../../../utils/styles/Mixins';
+
+.container {
+  padding: 30px 118px 90px 118px;
+}
+.titleH2 {
+  margin-bottom: 30px;
+}
+
+.svgLogin {
+  width: 660px;
+  height: 390px;
+}
+.logo{
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+  .logo {
+    width: 196px;
+    height: 68px;
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 600px) {
+  .logo {
+    width: 196px;
+    height: 60px;
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 600px) {
+  .container {
+    padding: 30px 118px 90px 45px;
+  }
+}
+@media (max-width: 600px) and (min-width: 420px) {
+  .container {
+    padding: 30px 118px 90px 65px;
+  }
+  .logo {
+    width: 130px;
+    height: 48px;
+    margin-bottom: 40px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .container {
+    padding: 30px 45px 90px 16px;
+  }
+  .logo {
+    width: 130px;
+    height: 48px;
+    margin-bottom: 40px;
+  }
+}
+
+@include media(desktop) {
+  .logoImg {
+    width: 196px;
+    height: 68px;
+  }
+  .logo {
+    img {
+      width: 196px;
+      height: 68px;
+    }
+  }
+  .container {
+    padding: 2rem 4.1875rem 6rem 4.25rem;
+
+    .logo {
+      margin-bottom: 2rem;
+      width: 196px;
+      height: 68px;
+    }
+
+    h2 {
+      margin-bottom: 1.5rem;
+    }
+  }
+}

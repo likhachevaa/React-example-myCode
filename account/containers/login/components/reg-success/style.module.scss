@@ -1,0 +1,52 @@
+.linkBtn {
+  font-size: 1.125rem;
+}
+.logo {
+  width: 196px;
+  height: 68px;
+  margin: 30px 0px 60px 118px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.svg {
+  width: 756px;
+  height: 565px;
+}
+.headerSuccess {
+  margin-bottom: 32px;
+}
+.btn {
+  margin: 44px 0 32px 0;
+}
+
+@media (max-width: 768px) and (min-width: 481px) {
+  .container {
+    padding: 0 80px 0 90px;
+  }
+  .svg {
+    width: 400px;
+    height: 360px;
+  }
+  .logo {
+    margin: 40px 0 90px 39px;
+  }
+}
+
+@media (max-width: 480px) and (min-width: 320px) {
+  .container {
+    padding: 0 50px 0 50px;
+  }
+  .svg {
+    width: 300px;
+    height: 280px;
+  }
+  .logo {
+    width: 137px;
+    height: 42px;
+    margin: 30px 0px 60px 20px;
+  }
+}
